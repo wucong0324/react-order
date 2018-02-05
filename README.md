@@ -1,6 +1,6 @@
 # react-order
 
-在业余时间写的一个模仿大众点评react-demo，
+参照慕课网写的一个模仿大众点评react-demo，
 
 
 ## 使用说明
@@ -20,7 +20,9 @@ npm run start (mac使用 npm run startMac)
 
 ## 技术栈
 - react16+react-keeper(替换react-router4)+redux（react全家桶）
+- webpack3.0快速构建本地开发环境
+- express模拟后台数据接口
 - es6（javascript核心规范）
 - less（css预处理器）
 - axios（数据请求）
-- localStorage （H5本地存储）
+- localStorage H5本地存储）
