@@ -1,0 +1,95 @@
+:global{
+    .likeWrapper{
+        h2 {
+            font-size: 16px;
+            font-weight: 700;
+            padding: 10px 15px;
+            border-bottom: 1px solid #f1f1f1;
+            color: #666;
+        }
+    }
+    .likeBox{
+        padding: 0 8px;
+        box-sizing: border-box;
+    }
+    .likeItem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #eee;
+        padding: 10px 0;
+        .itemImg{
+            width: 90px;
+            height: 90px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .itemContent{
+            flex: 1;
+            margin-left: 10px;
+            .itemTitle,.itemPrice{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                h3 {
+                    font-size: 18px;
+                    line-height: 1;
+                    color: #333;
+                    font-weight: 600;
+                }
+                .distance{
+                    font-size: 13px;
+                    line-height: 18px;
+                    color: #999;
+                }
+                .price{
+                    font-size: 18px;
+                    line-height: 1;
+                    font-weight: 900;
+                    color: rgb(233, 32, 61);
+                }
+                .number{
+                    font-size: 13px;
+                    line-height: 18px;
+                    color: #999;
+                }
+            }
+            .subTitle{
+                margin: 15px 0;
+                font-size: 14px;
+                color: #666;
+            }
+        }
+    }
+    .loadMoreBox {
+        text-align: center;
+        padding: 10px 0;
+        line-height: 20px;
+        background-color: #fff;
+        color: #999;
+        span{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 20px;
+                height: 20px;
+            }
+            i{margin-left: 10px}
+        }
+    }
+}
+
+.loadingBox{
+    text-align: center;
+    height: 300px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #666;
+    img{
+        margin-top: 110px;
+    }
+}
+

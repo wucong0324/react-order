@@ -1,0 +1,63 @@
+:global{
+    .commonHeader{
+        background-color: rgb(233, 32, 61);
+        color: #fff;
+        padding: 15px 10px;
+        text-align: center;
+        position: relative;
+        h1 {
+            display: inline;
+            font-size: 16px;
+            line-height: 1;
+        }
+
+        .backIcon {
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            left: 10px;
+        }
+    }
+    .currentCity {
+        background-color: #fff;
+        text-align: center;
+        padding: 30px 0;
+        border-bottom: 1px solid #f1f1f1;
+        .city{
+            font-size: 28px;
+        }
+        .locality{
+            color: #aaa;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+    }
+    .hotCityWrapper{
+        background-color: #fff;
+        padding: 10px 15px 20px 15px;
+        .title{
+            font-size: 16px;
+        }
+        ul{
+            display: flex;
+            width: 100%;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        li{
+            width: 33.3%;
+            text-align: center;
+            span {
+                display: inline-block;
+                border: 1px solid #ddd;
+                border-radius: 2px;
+                font-size: 16px;
+                line-height: 2;
+                margin-top: 15px;
+                width: 90%;
+                color: #666;
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.loadingBox{
+    text-align: center;
+    height: 300px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #666;
+    img{
+        margin-top: 110px;
+    }
+}
+
+.detailInfoWrapper{
+    background-color: #fff;
+    padding: 10px;
+    .infoContainer{
+        border-bottom: 1px solid #f1f1f1;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .infoImgBox{
+            width: 130px;
+            height: 100px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .infoContent{
+            flex: 1;
+            margin-left: 10px;
+            h1{
+                font-size: 20px;
+                color: #333;
+            }
+            .starBox{
+                margin: 10px 0;
+                .price {
+                    margin-left: 10px;
+                    color: #999;
+                }
+            }
+            .subTitle{
+                color: #999;
+            }
+        }
+    }
+    .infoDesc {
+        color: #999;
+        line-height: 1.5;
+    }
+}
+
+:global{
+    .starWrapper{
+        display: inline-block;
+        i {
+            color: #999;
+            margin: 0 1.5px;
+        }
+
+        .light {
+            color: rgb(233, 32, 61);
+        }
+    }
+}

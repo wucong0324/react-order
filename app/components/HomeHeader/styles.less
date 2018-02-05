@@ -1,0 +1,42 @@
+.flexBox {
+    display: flex;
+    background: rgb(233, 32, 61);
+    padding: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    .site a{
+        color: #fff;
+        .siteIcon{
+            margin-left: 8px;
+        }
+    }
+    .avatar a{
+        padding: 0 10px;
+        display: block;
+        color: #fff;
+    }
+}
+:global{
+    .searchInput{
+        flex: 1;
+        margin: 0 5px 0 15px;
+        position: relative;
+        input{
+            box-sizing: border-box;
+            display: block;
+            padding: 0 10px 0 30px;
+            border-radius: 15px;
+            width: 100%;
+            height: 30px;
+            &::-webkit-input-placeholder{
+                color: #bbb;
+            }
+        }
+        i{
+            position: absolute;
+            top: 6px;
+            left: 8px;
+            color: #bbb;
+        }
+    }
+}
